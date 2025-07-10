@@ -239,6 +239,11 @@ try {
 - **Fix**: Explicitly type parameters in map functions: `tasks.map((task: Task) => ...)`
 - **Rule**: ✅ Always provide explicit types for function parameters
 
+### **Mistake #12: Repository Deployment Preparation**
+- **Issue**: Repositories lack proper documentation and deployment instructions for public sharing
+- **Fix**: Create comprehensive README, proper .gitignore, and clear setup instructions
+- **Rule**: ✅ Always prepare repositories with proper documentation before sharing publicly
+
 ---
 
 ## 🎯 **DEVELOPMENT SUCCESS PATTERNS**
