@@ -244,6 +244,11 @@ try {
 - **Fix**: Create comprehensive README, proper .gitignore, and clear setup instructions
 - **Rule**: ✅ Always prepare repositories with proper documentation before sharing publicly
 
+### **Mistake #13: Exposing API Keys in Repository Files**
+- **Issue**: Real API keys accidentally included in .env.example files trigger GitHub security protection
+- **Fix**: Always use placeholder values in example files and remove secrets from git history if needed
+- **Rule**: ✅ Never commit real API keys, even in example files - use placeholders only
+
 ---
 
 ## 🎯 **DEVELOPMENT SUCCESS PATTERNS**
